@@ -7,4 +7,6 @@ class Person
   field :email, type: String
   field :notes, type: String
 
+
+  belongs_to :user
 end
